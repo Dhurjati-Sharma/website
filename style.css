@@ -1,0 +1,101 @@
+video {
+    max-width: 100%;
+  }
+  .no {
+    cursor: default;
+  }
+
+  .zoom {
+    transition: transform 0.2s ease;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+
+  .hid {
+    color: transparent;
+    cursor: default;
+    font-size: 10px;
+  }
+
+  .space {
+    height: 0px;
+    width: 12px;
+    color: transparent;
+  }
+
+  .black {
+    color: black
+  }
+
+  .error {
+    height: 2px !important;
+    color: transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .space {
+    height: 3px;
+    width: 6px;
+    color: transparent;
+  }
+
+  .yes {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .h {
+    height: 100px;
+    cursor: default;
+    color: transparent;
+  }
+
+  .j {
+    height: 22px;
+    cursor: default;
+    color: transparent;
+  }
+
+  .h2 {
+    height: 74px;
+    cursor: default;
+    color: transparent;
+  }
+
+  *,
+  *::after,
+  *::before {
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+    cursor: default;
+  }
